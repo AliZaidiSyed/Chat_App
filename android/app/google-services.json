@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "36000538415",
+    "project_id": "connecto-c95eb",
+    "storage_bucket": "connecto-c95eb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36000538415:android:4829bb5d75f339f173cbda",
+        "android_client_info": {
+          "package_name": "com.example.connecto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36000538415-lqtkcbrfoq2knj8h96ns77ets9vv3g9k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.connecto",
+            "certificate_hash": "0e645a160d3df09d922c4f78b0357aa99f1995a3"
+          }
+        },
+        {
+          "client_id": "36000538415-ghjbqjceumts7u7clfpt31qpvi9m7vgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0Vr2YvFsiGQCjKVQg4JtjB7LL2bzmPEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36000538415-ghjbqjceumts7u7clfpt31qpvi9m7vgd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "36000538415-uk5a0bq0p5876rse5aih5l1knl277fjl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.connecto"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
