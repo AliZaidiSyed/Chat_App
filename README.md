@@ -2,8 +2,6 @@
 
 This is a real-time messaging application built with **Flutter** and **Dart**. It is designed to help users connect, discover other users, chat privately, share media, create group conversations, and communicate through voice and video calls.
 
-
-
 ## Features
 
 - **Google sign-in:** Authenticate users with Firebase Authentication and Google Sign-In.
@@ -43,11 +41,7 @@ This is a real-time messaging application built with **Flutter** and **Dart**. I
 | **uuid** | Generates unique identifiers where used by the app. | Helps create unique IDs for records or uploaded files. |
 | **cherry_toast** | Displays toast-style feedback messages. | Provides user feedback for successful actions and errors. |
 
-
-
-
 ## Project Structure
-
 
 ```text
 chat_app/
@@ -71,6 +65,10 @@ chat_app/
 ├── pubspec.yaml                     # Flutter dependencies and asset declarations
 ├── pubspec.lock                     # Resolved dependency versions
 └── README.md                        # Project documentation
+```
 
+## Repository
 
+Find the source code and project updates on GitHub:
 
+**[AliZaidiSyed/Chat_App](https://github.com/AliZaidiSyed/Chat_App)**
