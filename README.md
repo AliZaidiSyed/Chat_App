@@ -1,10 +1,10 @@
 # chat_app
 
-A real-time messaging application built with **Flutter and Dart**, designed for private one-to-one conversations and group communication. The app combines Firebase services for authentication, live chat data, and push notifications with Supabase Storage for image uploads. It also integrates ZEGOCLOUD for audio and video call invitations.
+A real-time messaging application built with **Flutter and Dart**, designed for private one-to-one conversations and group communication. The app combines Firebase services for authentication, live chat data, and push notifications and Supabase Storage for image uploads. It also integrates ZEGOCLOUD for audio and video call invitations.
 
 **Key Features**
 
-- **Authentication:** Create an account and sign in with email and password or Google Sign-In. The app also manages the authenticated user's session and sign-out flow.
+- **Authentication:** Create an account and sign in with email and password and Google Sign-In. The app also manages the authenticated user's session and sign-out flow.
 - **User Profiles:** View profile information and update a profile picture. User presence and last-seen information are maintained in Firestore.
 - **Friend Requests:** Send, receive, accept, or reject message requests. A one-to-one friendship and chat are created after a request is accepted.
 - **One-to-One Messaging:** Exchange messages in real time using Cloud Firestore, with support for text messages and image messages with optional captions.
@@ -13,7 +13,7 @@ A real-time messaging application built with **Flutter and Dart**, designed for 
 - **Group Conversations:** Create groups with a name and optional group picture, add friends, and exchange text and image messages.
 - **Group Administration:** View group information and members, manage administrators, add or remove members, control who can edit group information, leave a group, or delete a group.
 - **Group Activity:** View group message updates, typing indicators, unread counts, and system messages for group events such as member changes.
-- **Audio and Video Calls:** Send one-to-one and group audio/video call invitations using ZEGOCLOUD. One-to-one call activity is also recorded in the chat history.
+- **Audio and Video Calls:** Send one-to-one and group audio/video call invitations using ZEGOCLOUD.
 - **Push Notifications:** Receive notifications for direct messages, group messages, and friend requests through Firebase Cloud Messaging, with foreground notification display handled by local notifications.
 
 **Technology Stack**
