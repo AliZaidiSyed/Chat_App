@@ -73,25 +73,4 @@ chat_app/
 └── README.md                        # Project documentation
 
 
-,,,
 
-
-
-
-
-
-
-
-
-
-
-
-
-## Author
-
-**Ali Zaidi**  
-GitHub: [@AliZaidiSyed](https://github.com/AliZaidiSyed)
-
-## Repository
-
-[https://github.com/AliZaidiSyed/Chat_App](https://github.com/AliZaidiSyed/Chat_App)
