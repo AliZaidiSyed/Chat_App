@@ -49,7 +49,8 @@ The code is organized into feature-based folders to keep UI, state, data models,
 
 
 ```
-## Project Screenshots
+# Project Screenshots
+
 <img width="1480" height="6450" alt="connecto_github_screenshots_no_header" src="https://github.com/user-attachments/assets/8401fca3-9d0c-4ead-bfce-bc1c910171a2" />
 
 
