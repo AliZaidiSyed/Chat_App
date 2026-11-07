@@ -1,4 +1,4 @@
-#Flutter Chat App
+# Flutter Chat App
 
 This is a real-time messaging application built with **Flutter** and **Dart**. It is designed to help users connect, discover other users, chat privately, share media, create group conversations, and communicate through voice and video calls.
 
@@ -42,7 +42,7 @@ This is a real-time messaging application built with **Flutter** and **Dart**. I
 | **intl** | Formats dates, times, and other locale-sensitive values. | Makes timestamps and date display easier to format consistently. |
 | **uuid** | Generates unique identifiers where used by the app. | Helps create unique IDs for records or uploaded files. |
 | **cherry_toast** | Displays toast-style feedback messages. | Provides user feedback for successful actions and errors. |
-| **cupertino_icons** | Supplies Cupertino-style icons. | Adds icon assets commonly used in Flutter interfaces. |
+
 
 
 
@@ -71,7 +71,7 @@ chat_app/
 ├── pubspec.yaml                     # Flutter dependencies and asset declarations
 ├── pubspec.lock                     # Resolved dependency versions
 └── README.md                        # Project documentation
-```
+
 
 
 
