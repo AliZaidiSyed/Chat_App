@@ -3,8 +3,19 @@
 # Connecto - Flutter Chat App
 ### A Real-Time Messaging and Calling Application Built with Flutter
 
-![Firebase](https://img.shields.io/badge/Firebase-Authentication_%26_Firestore-orange?logo=firebase)
+## 🛠️ Tech Stack
+
+![Flutter](https://img.shields.io/badge/Flutter-Mobile_Development-02569B?logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-Programming_Language-0175C2?logo=dart&logoColor=white)
+![Riverpod](https://img.shields.io/badge/Riverpod-State_Management-6750A4)
+![Firebase](https://img.shields.io/badge/Firebase-Authentication_%26_Firestore-FFCA28?logo=firebase&logoColor=black)
+![Google Sign-In](https://img.shields.io/badge/Google-Sign_In-4285F4?logo=google&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-Storage_%26_Edge_Functions-3ECF8E?logo=supabase&logoColor=white)
+![ZEGOCLOUD](https://img.shields.io/badge/ZEGOCLOUD-Audio_%26_Video_Calls-2563EB)
+![FCM](https://img.shields.io/badge/FCM-Push_Notifications-FF6F00?logo=firebase&logoColor=white)
+
+
+
 
 </div>
 
@@ -17,7 +28,8 @@ Connecto is a Flutter chat application for discovering users, communicating thro
 The following screenshots show the main Connecto features, from authentication and chat screens to group management and calling.
 
 <div align="center">
-![Uploading Connecto_GitHub_All_Features.png…]()
+<img width="1540" height="4054" alt="Connecto_GitHub_All_Features" src="https://github.com/user-attachments/assets/f4f3981a-b8f9-438e-82c8-0814bcf0a06c" />
+
 
 
 </div>
