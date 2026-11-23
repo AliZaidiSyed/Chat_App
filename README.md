@@ -169,78 +169,10 @@ The app uses **Riverpod** (`flutter_riverpod`) to separate application state fro
 | Group chat providers | Read group conversations and typing state |
 | `profileProvider` | Load and update profile data and images |
 
-Real-time updates are powered by Firestore streams. Authentication controls the root screen through `AuthGate`, so signed-in users return to the app without repeating the Google sign-in flow.
+
 
 ---
 
-## 🔥 Firebase Integration
-
-Firebase provides authentication and the real-time database used by Connecto.
-
-### Firebase Authentication
-
-- Email/password sign-up and login.
-- Google Sign-In.
-- Persistent authentication sessions and sign-out.
-- Auth-state updates for app navigation and call-service initialization.
-
-### Cloud Firestore
-
-| Collection / Path | Data |
-|---|---|
-| `users` | User profiles, presence, and messaging tokens |
-| `messageRequests` | Pending and accepted/rejected contact requests |
-| `friendships` | Connections between users |
-| `chats` | One-to-one conversation metadata and unread counts |
-| `messages` | Private text, image, and call-history messages |
-| `groups` | Group names, members, admins, permissions, and unread counts |
-| `groupMessages` | Group text, image, and system messages |
-| `users/{uid}/notifications` | Notification records associated with a user |
-
-### Firebase Cloud Messaging
-
-- Requests notification permission.
-- Retrieves and refreshes FCM device tokens.
-- Handles foreground notifications with local notification support.
-- Works with a Supabase Edge Function for server-side push requests.
-
----
-
-## 🖼️ Supabase Storage
-
-Supabase Storage is used for chat images and profile pictures.
-
-**Storage bucket:** `chat_files`
-
-**Stored media:**
-
-- Shared chat and group images.
-- Profile pictures under a `profile_pictures/` path.
-
-### Image Upload Flow
-
-1. The user selects an image from the device gallery.
-2. The app uploads the file to the `chat_files` Supabase Storage bucket.
-3. Supabase provides a public file URL.
-4. The URL is saved with the relevant Firestore message or user profile.
-5. The image is displayed in chat or profile screens.
-
-### Supabase Edge Functions
-
-The `send-user-notification` Edge Function is invoked from the Flutter app for notification requests. Its server-side implementation must be deployed and configured separately.
-
----
-
-## 📞 ZEGOCLOUD Calling
-
-Connecto integrates **ZEGOCLOUD Prebuilt Call UI Kit** and the **signaling plugin** for one-to-one and group audio/video calls.
-
-- Initializes the invitation service for the authenticated Firebase user.
-- Uses the Firebase user ID as the calling user ID.
-- Provides audio and video invitation buttons in private chats and groups.
-- Cleans up the calling service when the user logs out.
-
-Calling requires valid ZEGOCLOUD app configuration and the relevant signaling/call services to be available.
 
 ---
 
